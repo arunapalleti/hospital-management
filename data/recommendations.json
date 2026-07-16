@@ -1,0 +1,86 @@
+[
+    {
+        "disease": "Cold",
+        "symptoms": [
+            "cough",
+            "runny nose",
+            "sneezing",
+            "sore throat",
+            "nasal congestion"
+        ],
+        "tablets": [
+            "Paracetamol",
+            "Cetirizine",
+            "Vitamin C"
+        ],
+        "dosage": "Cetirizine: 1 tablet daily at night. Paracetamol: 1 tablet every 6 hours if fever. Vitamin C: 1 tablet daily.",
+        "precautions": "Avoid cold beverages, rest well, stay hydrated.",
+        "side_effects": "Drowsiness (due to Cetirizine), mild dry mouth.",
+        "specialist": "General Physician"
+    },
+    {
+        "disease": "Fever",
+        "symptoms": [
+            "high body temperature",
+            "chills",
+            "body ache",
+            "sweating",
+            "headache"
+        ],
+        "tablets": [
+            "Paracetamol"
+        ],
+        "dosage": "Paracetamol: 500mg 1 tablet every 6 hours. Max 4g daily.",
+        "precautions": "Take after meals, do not consume alcohol, monitor temperature.",
+        "side_effects": "Rare: mild nausea or skin rash. Avoid double dosage.",
+        "specialist": "General Physician"
+    },
+    {
+        "disease": "Headache",
+        "symptoms": [
+            "throbbing head pain",
+            "migraine",
+            "tension in temples",
+            "sensitivity to light"
+        ],
+        "tablets": [
+            "Paracetamol"
+        ],
+        "dosage": "Paracetamol: 500mg 1 tablet on onset of pain. Repeat after 6 hours if needed.",
+        "precautions": "Rest in a quiet, dark room. Limit caffeine intake.",
+        "side_effects": "Safe in short term. Avoid long term unprescribed use.",
+        "specialist": "Neurologist"
+    },
+    {
+        "disease": "Diabetes",
+        "symptoms": [
+            "high blood sugar levels",
+            "frequent urination",
+            "increased thirst",
+            "fatigue"
+        ],
+        "tablets": [
+            "Metformin"
+        ],
+        "dosage": "Metformin: 500mg twice daily with meals (breakfast and dinner).",
+        "precautions": "Regularly monitor blood sugar. Maintain low-glycemic diet. Keep hydrated.",
+        "side_effects": "Stomach upset, metallic taste, nausea, diarrhea (usually temporary).",
+        "specialist": "Nephrologist"
+    },
+    {
+        "disease": "Hypertension",
+        "symptoms": [
+            "high blood pressure readings",
+            "dizziness",
+            "chest pressure",
+            "shortness of breath"
+        ],
+        "tablets": [
+            "Amlodipine"
+        ],
+        "dosage": "Amlodipine: 5mg once daily, preferably in the morning.",
+        "precautions": "Monitor blood pressure daily. Restrict table salt intake. Change positions slowly.",
+        "side_effects": "Ankle swelling (peripheral edema), fatigue, lightheadedness.",
+        "specialist": "Cardiologist"
+    }
+]

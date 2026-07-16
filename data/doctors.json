@@ -1,0 +1,70 @@
+[
+    {
+        "id": "DOC-101",
+        "name": "Dr. Robert Chen",
+        "specialization": "General Physician",
+        "qualification": "MBBS, MD (General Medicine)",
+        "experience": 8,
+        "available_days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+        ],
+        "consultation_time": "09:00 - 13:00",
+        "phone": "+1-555-0190",
+        "email": "robert.chen@smarthospital.com",
+        "status": "Available"
+    },
+    {
+        "id": "DOC-102",
+        "name": "Dr. Aris Thorne",
+        "specialization": "Cardiologist",
+        "qualification": "MD (Cardiology), FACC",
+        "experience": 12,
+        "available_days": [
+            "Mon",
+            "Wed",
+            "Fri"
+        ],
+        "consultation_time": "10:00 - 13:00",
+        "phone": "+1-555-0182",
+        "email": "aris.thorne@smarthospital.com",
+        "status": "Available"
+    },
+    {
+        "id": "DOC-103",
+        "name": "Dr. Sarah Jenkins",
+        "specialization": "Neurologist",
+        "qualification": "MD, PhD (Neurology)",
+        "experience": 15,
+        "available_days": [
+            "Tue",
+            "Thu"
+        ],
+        "consultation_time": "14:00 - 17:00",
+        "phone": "+1-555-0174",
+        "email": "sarah.jenkins@smarthospital.com",
+        "status": "On Leave"
+    },
+    {
+        "id": "DOC-104",
+        "name": "Dr. Emily Taylor",
+        "specialization": "Pediatrician",
+        "qualification": "MD, DCH (Pediatrics)",
+        "experience": 10,
+        "available_days": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+        ],
+        "consultation_time": "15:00 - 18:00",
+        "phone": "+1-555-0163",
+        "email": "emily.taylor@smarthospital.com",
+        "status": "Available"
+    }
+]

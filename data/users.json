@@ -1,0 +1,23 @@
+[
+    {
+        "fullname": "System Administrator",
+        "username": "admin",
+        "email": "admin@smarthospital.com",
+        "password": "d233cc362a569b0a2ea7ada564a6e17d86ee7aae2ed4ada05be2ec79875dc8a7",
+        "role": "Admin"
+    },
+    {
+        "fullname": "Dr. Robert Chen",
+        "username": "drrobert",
+        "email": "robert.chen@smarthospital.com",
+        "password": "c4c316d7430604996c8c35e2b90a96e29bb5671b8a7b321bf52b43c7b92b76b3",
+        "role": "Doctor"
+    },
+    {
+        "fullname": "aruna palleti",
+        "username": "aruna",
+        "email": "arunapalleti9@gmail.com",
+        "password": "cb8f36d0a4829ddbbcb6383e04ec5864d654584112f90b4883c27ec81e8ca156",
+        "role": "Admin"
+    }
+]

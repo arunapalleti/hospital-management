@@ -1,0 +1,67 @@
+[
+    {
+        "id": "TAB-001",
+        "name": "Paracetamol",
+        "manufacturer": "PharmaCare Labs",
+        "category": "Analgesic / Antipyretic",
+        "dosage": "1 tablet every 6 hours as needed",
+        "strength": "500mg",
+        "price": 0.1,
+        "stock": 500,
+        "expiry_date": "2027-12-31",
+        "uses": "Pain relief, reducing fever",
+        "side_effects": "Nausea, liver damage on high overdose"
+    },
+    {
+        "id": "TAB-002",
+        "name": "Cetirizine",
+        "manufacturer": "AllerShield Inc.",
+        "category": "Antihistamine",
+        "dosage": "1 tablet daily at bedtime",
+        "strength": "10mg",
+        "price": 0.15,
+        "stock": 15,
+        "expiry_date": "2026-10-30",
+        "uses": "Allergic rhinitis, cold symptoms, sneezing",
+        "side_effects": "Drowsiness, dry mouth, tiredness"
+    },
+    {
+        "id": "TAB-003",
+        "name": "Metformin",
+        "manufacturer": "GlycoPharma Ltd.",
+        "category": "Antidiabetic",
+        "dosage": "1 tablet twice daily with meals",
+        "strength": "500mg",
+        "price": 0.25,
+        "stock": 300,
+        "expiry_date": "2026-08-10",
+        "uses": "Type-2 Diabetes mellitus management",
+        "side_effects": "Nausea, abdominal pain, diarrhea, metallic taste"
+    },
+    {
+        "id": "TAB-004",
+        "name": "Amlodipine",
+        "manufacturer": "CardioMeds Co.",
+        "category": "Antihypertensive",
+        "dosage": "1 tablet once daily in the morning",
+        "strength": "5mg",
+        "price": 0.2,
+        "stock": 250,
+        "expiry_date": "2028-03-15",
+        "uses": "Hypertension, angina chest pain",
+        "side_effects": "Ankle swelling, dizziness, flushing, fatigue"
+    },
+    {
+        "id": "TAB-005",
+        "name": "Vitamin C",
+        "manufacturer": "VitaHealth Supplements",
+        "category": "Supplement",
+        "dosage": "1 tablet chewable daily",
+        "strength": "500mg",
+        "price": 0.05,
+        "stock": 12,
+        "expiry_date": "2027-05-20",
+        "uses": "Immunity support, vitamin C deficiency",
+        "side_effects": "Mild diarrhea if consumed in high quantities"
+    }
+]

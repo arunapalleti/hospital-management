@@ -1,0 +1,10 @@
+streamlit
+python-dotenv
+pandas
+plotly
+streamlit-option-menu
+streamlit-authenticator
+bcrypt
+Pillow
+google-genai
+openai
