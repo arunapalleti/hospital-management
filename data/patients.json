@@ -1,1 +1,72 @@
-[]
+[
+    {
+        "id": "PAT-3FBF22",
+        "name": "ar",
+        "age": 20,
+        "gender": "Female",
+        "blood_group": "O+",
+        "weight": 46.0,
+        "phone": "7093671834",
+        "address": "mangallepalle,ibrahimpatnam",
+        "disease": "fever",
+        "symptoms": "headache,cold,bodypains",
+        "doctor_assigned": "Dr. Sarah Jenkins",
+        "date": "2026-07-17"
+    },
+    {
+        "id": "PAT-96DDE9",
+        "name": "ar",
+        "age": 20,
+        "gender": "Female",
+        "blood_group": "O+",
+        "weight": 46.0,
+        "phone": "7093671834",
+        "address": "mangallepalle,ibrahimpatnam",
+        "disease": "fever",
+        "symptoms": "headache,cold,bodypains",
+        "doctor_assigned": "Dr. Sarah Jenkins",
+        "date": "2026-07-17"
+    },
+    {
+        "id": "PAT-87554B",
+        "name": "ar",
+        "age": 20,
+        "gender": "Female",
+        "blood_group": "O+",
+        "weight": 46.0,
+        "phone": "7093671834",
+        "address": "mangallepalle,ibrahimpatnam",
+        "disease": "fever",
+        "symptoms": "headache ,cold  ,bodypains",
+        "doctor_assigned": "Dr. Sarah Jenkins",
+        "date": "2026-07-17"
+    },
+    {
+        "id": "PAT-D74747",
+        "name": "ar",
+        "age": 20,
+        "gender": "Female",
+        "blood_group": "O+",
+        "weight": 46.0,
+        "phone": "7093671834",
+        "address": "mangallepalle,ibrahimpatnam",
+        "disease": "fever",
+        "symptoms": "headache ,cold  ,bodypains",
+        "doctor_assigned": "Dr. Sarah Jenkins",
+        "date": "2026-07-17"
+    },
+    {
+        "id": "PAT-73BEE9",
+        "name": "john",
+        "age": 45,
+        "gender": "Male",
+        "blood_group": "AB+",
+        "weight": 76.0,
+        "phone": "9874671345",
+        "address": "hyderabad,telangana",
+        "disease": "bones weakness",
+        "symptoms": "bones pains,low energy,dizzyness",
+        "doctor_assigned": "Dr. Aris Thorne",
+        "date": "2026-07-22"
+    }
+]

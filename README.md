@@ -1,62 +1,47 @@
-# SmartCampusAI
+# Smart Hospital Management System
 
-An AI-powered Smart Campus Management System built using Python and Streamlit. Features modern dashboards, role-based controls (Student, Faculty, Admin), JSON-backed transactional database, custom CSS grading and analytics modules, and integrated Gemini/OpenAI conversational assistant.
+A complete, modern, responsive, and professional Hospital Management System built with Python, Streamlit, and a JSON flat-file database.
+
+## Technology Stack
+- **Python**: 3.12+
+- **Streamlit**: Web interface and application framework
+- **Pandas**: Data manipulation and analytics
+- **Pillow**: Image management
+- **JSON**: Lightweight flat-file storage
+- **UUID**: Unique ID generation
 
 ## Features
+1. **Secure Authentication**: Secure login and register pages with SHA-256 password hashing. Roles: Admin & Doctor.
+2. **Dashboard**: High-fidelity SaaS-style metrics dashboard with stats, recent activities, dark/light theme options, and quick search.
+3. **Patient Management**: Complete CRUD operations for patient records with filters, details view, and doctor assignment.
+4. **Specialists Directory**: Modern profiles for Doctors spanning 13 specializations with search, filter, and scheduling options.
+5. **Pharmacy/Tablet Inventory**: Management of medicine stock, expiry dates, dosage, strength, and automatic Low-Stock & Expiry alerts.
+6. **Recommendation System**: AI-like rules engine advising tablets, dosages, precautions, and specialist routing based on patient symptoms.
+7. **History Log**: Chronological records of issued medicines with CSV export and management tools.
+8. **Visual Reports**: Analytical charts (pie, bar, line charts) detailing demographics, specializations, stock status, and medicine consumption.
+9. **Settings**: Theme switcher, personal profile configuration, and secure password changes.
 
-- **Custom Authentication**: Registration and secure validation. Encrypted passwords using `bcrypt`.
-- **Role-Based Workspaces**:
-  - **Admin**: Create, edit, list, and delete user profiles. Manage announcements and track system statistics.
-  - **Faculty**: Record student attendance, create/delete assignments, post targeted announcements, and review grades.
-  - **Student**: Track assignment status, view attendance, read announcements, and interact with the AI assistant.
-- **Custom UI**: Dark/Light tailored styles, premium gradient card modules, styled sidebar, and responsive layout.
-- **AI Chatbot**: Dedicated assistant for campus navigation, rules, policies, and inquiries using Google Gemini or OpenAI APIs.
-- **Plotly Visuals**: Beautiful dashboards with interactive charts for analytical insights.
-
----
-
-## Installation & Setup
-
-### 1. Prerequisites
-Ensure you have **Python 3.12+** installed on your local computer.
-
-### 2. Clone/Extract the Project
-Navigate to the root directory `SmartCampusAI` in your command line terminal.
-
-### 3. Install Dependencies
-Install all package requirements using `pip`:
-```bash
-pip install -r requirements.txt
+## Folder Structure
+```
+hospital_management_system/
+├── app.py                  # Main entry point & routing configuration
+├── requirements.txt        # Python package dependencies
+├── .env                    # Environment variables
+├── README.md               # Documentation
+├── assets/                 # App icons & graphics
+├── pages/                  # Streamlit page modules
+└── utils/                  # Backend utilities (auth, DB, styles, etc.)
+└── data/                   # JSON databases
 ```
 
-### 4. Configure Environment Variables
-Copy `.env.example` to `.env` and fill in either your Gemini key or OpenAI key:
-```bash
-cp .env.example .env
-```
-Inside `.env`:
-```ini
-GOOGLE_API_KEY=your_gemini_api_key
-# OR
-OPENAI_API_KEY=your_openai_api_key
-```
+## Running the Application Locally
 
-### 5. Running the Application
-Launch the server using Streamlit:
-```bash
-streamlit run app.py
-```
-The application will automatically spin up in your default web browser (typically at `http://localhost:8501`).
+1. **Install Python dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
----
-
-## Database Architecture
-All data stores are configured in the `data/` folder as flat JSON databases:
-- `data/users.json`
-- `data/announcements.json`
-- `data/attendance.json`
-- `data/assignments.json`
-
-The system automatically initializes these files with default directories and an admin user if missing:
-- **Default Admin Username**: `admin`
-- **Default Admin Password**: `adminpassword`
+2. **Run the Streamlit application**:
+   ```bash
+   streamlit run app.py
+   ```
